@@ -1,3 +1,6 @@
+/**
+ * Contains redis client class and some helper functions
+ */
 import { createClient } from 'redis';
 import { promisify } from 'util';
 
